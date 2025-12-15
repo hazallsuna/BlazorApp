@@ -1,0 +1,114 @@
+﻿@using BlazorApp.Services
+@using BlazorApp.Services.ViewModels
+@inject EmployeeService EmployeeService
+@inject ISnackbar Snackbar
+
+<EditForm Model="@model" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+    <MudDialog>
+        <DialogContent>
+            <MudGrid>
+                <MudItem xs="12" md="3">
+                    <MudTextField Label="Title"
+                                  Variant="Variant.Outlined"
+                                  @bind-Value="model.Title"
+                                  For="@(() => model.Title)" />
+                </MudItem>
+                <MudItem xs="12" md="4">
+                    <MudTextField Label="First Name"
+                                  Variant="Variant.Outlined"
+                                  @bind-Value="model.FirstName"
+                                  For="@(() => model.FirstName)" />
+                </MudItem>
+                <MudItem xs="12" md="5">
+                    <MudTextField Label="Last Name"
+                                  Variant="Variant.Outlined"
+                                  @bind-Value="model.LastName"
+                                  For="@(() => model.LastName)" />
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudDatePicker Label="Birth Date"
+                                   Variant="Variant.Outlined"
+                                   @bind-Date="_birthDate"
+                                   DateFormat="dd/MM/yyyy" />
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudTextField Label="Position"
+                                  Variant="Variant.Outlined"
+                                  @bind-Value="model.Position"
+                                  For="@(() => model.Position)" />
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudDatePicker Label="Hire Date"
+                                   Variant="Variant.Outlined"
+                                   @bind-Date="_hireDate"
+                                   DateFormat="dd/MM/yyyy" />
+                </MudItem>
+                <MudItem xs="12" md="6">
+                    <MudTextField Label="State"
+                                  Variant="Variant.Outlined"
+                                  @bind-Value="model.State"
+                                  For="@(() => model.State)" />
+                </MudItem>
+            </MudGrid>
+        </DialogContent>
+        <DialogActions>
+            <MudButton OnClick="Cancel">Cancel</MudButton>
+            <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary">Update</MudButton>
+        </DialogActions>
+    </MudDialog>
+</EditForm>
+
+@code {
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; } = default!;
+
+    [Parameter]
+    public int EmployeeId { get; set; }
+
+    public EmployeeViewModel model { get; set; } = new();
+    private DateTime? _hireDate;
+    private DateTime? _birthDate;
+
+    protected override void OnInitialized()
+    {
+        // Mevcut employee verilerini yükle
+        model = EmployeeService.FindEmployee(EmployeeId);
+
+        if (model != null)
+        {
+            _birthDate = model.BirthDate;
+            _hireDate = model.HireDate;
+        }
+        else
+        {
+            // Employee bulunamazsa dialog'u kapat
+            Snackbar.Add("Employee not found!", Severity.Error);
+            MudDialog.Cancel();
+        }
+    }
+
+    private async Task OnValidSubmit()
+    {
+        if (_hireDate is not null)
+            model.HireDate = _hireDate.Value;
+        if (_birthDate is not null)
+            model.BirthDate = _birthDate.Value;
+
+        var result = EmployeeService.UpdateEmployee(model);
+        if (result)
+        {
+            Snackbar.Add("Successfully updated the employee!", Severity.Success);
+            MudDialog.Close(DialogResult.Ok(true));
+        }
+        else
+        {
+            Snackbar.Add("Failed to update the employee!", Severity.Error);
+        }
+    }
+
+    private void Cancel()
+    {
+        MudDialog.Cancel();
+    }
+}
