@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Monster\\Desktop\\BlazorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\components\\pages\\deleteemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\deleteemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\components\\pages\\updateemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\updateemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\components\\pages\\createemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\createemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\components\\pages\\deleteemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\deleteemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\services\\viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\services\\viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A4BA87E-3416-4AA4-AE2B-D926C9B8B684}|BlazorApp\\BlazorApp.csproj|c:\\users\\monster\\desktop\\blazorapp\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,25 +62,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DeleteEmployee.razor",
               "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Pages\\DeleteEmployee.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\DeleteEmployee.razor",
               "ToolTip": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Pages\\DeleteEmployee.razor",
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\DeleteEmployee.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-15T22:23:12.269Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T00:22:30.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "BlazorApp\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\wwwroot\\app.css",
+              "RelativeToolTip": "BlazorApp\\wwwroot\\app.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-15T23:50:36.48Z"
             },
             {
               "$type": "Document",
@@ -98,73 +114,25 @@
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAAAI8AAAB3AAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAAIsAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-15T14:03:00.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UpdateEmployee.razor",
               "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Pages\\UpdateEmployee.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\UpdateEmployee.razor",
               "ToolTip": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Pages\\UpdateEmployee.razor",
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\UpdateEmployee.razor",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAIwHEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-15T21:33:05.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-15T13:37:26.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "BlazorApp\\Services\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "BlazorApp\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:41:37.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateEmployee.razor",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Pages\\CreateEmployee.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\CreateEmployee.razor",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\Pages\\CreateEmployee.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Pages\\CreateEmployee.razor",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAQwFsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-15T16:26:03.8Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EmployeeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Services\\ViewModels\\EmployeeViewModel.cs",
-              "RelativeDocumentMoniker": "BlazorApp\\Services\\ViewModels\\EmployeeViewModel.cs",
-              "ToolTip": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Services\\ViewModels\\EmployeeViewModel.cs",
-              "RelativeToolTip": "BlazorApp\\Services\\ViewModels\\EmployeeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:44:34.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp\\Program.cs",
@@ -176,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\App.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\App.razor",
@@ -188,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\_Imports.razor",
@@ -200,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "20251215130805_SeedData.cs",
               "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\DataAccess\\Migrations\\20251215130805_SeedData.cs",
               "RelativeDocumentMoniker": "BlazorApp\\DataAccess\\Migrations\\20251215130805_SeedData.cs",
@@ -212,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "Seed.cs",
               "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\DataAccess\\Seed.cs",
               "RelativeDocumentMoniker": "BlazorApp\\DataAccess\\Seed.cs",
@@ -224,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\DataAccess\\AppDbContext.cs",
               "RelativeDocumentMoniker": "BlazorApp\\DataAccess\\AppDbContext.cs",
@@ -236,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorApp\\appsettings.json",
@@ -248,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "20251215125007_Initialization.cs",
               "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BlazorApp\\BlazorApp\\DataAccess\\Migrations\\20251215125007_Initialization.cs",
               "RelativeDocumentMoniker": "BlazorApp\\DataAccess\\Migrations\\20251215125007_Initialization.cs",

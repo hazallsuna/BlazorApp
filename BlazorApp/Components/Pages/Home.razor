@@ -26,33 +26,29 @@ Hideable="true" RowClick="@RowClicked" RowContextMenuClick="RowRightClicked" Sel
         AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
     </ToolBarContent>
     <Columns>
-        <PropertyColumn Property="x => x.EmployeeIdView" Title="Employee Id" />
+        <PropertyColumn Property="x => x.EmployeeIdView" Title="Employee Id" Hideable="true" Hidden="@_hideLessImportant" />
         <PropertyColumn Property="x => x.Title" Title="Title" />
         <PropertyColumn Property="x => x.FirstName" Title="First Name" />
         <PropertyColumn Property="x => x.LastName" Title="Last Name" />
         <PropertyColumn Property="x => x.BirthDate" Title="Birth Date" Format="dd/MM/yyyy" />
         <PropertyColumn Property="x => x.Position" Title="Position" />
         <PropertyColumn Property="x => x.HireDate" Title="Hire Date" Format="dd/MM/yyyy" />
-        <PropertyColumn Property="x => x.State" Title="State" />
+        <PropertyColumn Property="x => x.State" Title="State"  />
         <TemplateColumn CellClass="d-flex justify-end">
             <CellTemplate>
-                <MudButton Class="me-2"
-                Size="@Size.Small"
-                Variant="Variant.Filled"
-                StartIcon="@Icons.Material.Filled.Edit"
-                Color="@Color.Warning"
-                OnClick="@(() => this.UpdateEmployee(context))">
-                    Update
-                </MudButton>
+                <MudStack Row="true" Spacing="0">
+                    <MudIconButton Icon="@Icons.Material.Filled.Edit"
+                                   Color="Color.Warning"
+                                   Size="Size.Small"
+                                   Title="Update"
+                                   OnClick="@(() => UpdateEmployee(context))" />
 
-                <MudButton
-                Size="@Size.Small"
-                Variant="Variant.Filled"
-                StartIcon="@Icons.Material.Filled.Delete"
-                Color="@Color.Error"
-                OnClick="@(() => this.DeleteEmployee(context))">
-                    Delete
-                </MudButton>
+                    <MudIconButton Icon="@Icons.Material.Filled.Delete"
+                                   Color="Color.Error"
+                                   Size="Size.Small"
+                                   Title="Delete"
+                                   OnClick="@(() => DeleteEmployee(context))" />
+                </MudStack>
             </CellTemplate>
         </TemplateColumn>
     </Columns>
@@ -85,6 +81,7 @@ Hideable="true" RowClick="@RowClicked" RowContextMenuClick="RowRightClicked" Sel
     private List<EmployeeViewModel> Elements = new();
     private string _searchString = "";
     private bool _sortNameByLength;
+    private bool _hideLessImportant = true;
     private List<string> _events = new();
 
     protected override async Task OnInitializedAsync()
@@ -140,7 +137,7 @@ Hideable="true" RowClick="@RowClicked" RowContextMenuClick="RowRightClicked" Sel
     public async Task DeleteEmployee(CellContext<EmployeeViewModel> employee)
     {
 
-        var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.Small };
+        var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.Large};
         var dialog = await DialogService.ShowAsync<DeleteEmployee>($"{employee.Item.FirstName} {employee.Item.LastName}", options);
         var result = await dialog.Result;
 

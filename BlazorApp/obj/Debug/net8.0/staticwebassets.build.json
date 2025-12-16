@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/Da6nwzSchmnD6jWlfKbissWMtxKE8KfhO0yWRsF3yk=",
+  "Hash": "0e/jgnw5CzVat6OTeRunjk7g1z4Z/bkrLZsCLYJwDSc=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -283,7 +283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 11:48:32 GMT"
+          "Value": "Mon, 15 Dec 2025 23:52:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -320,7 +320,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 11:48:32 GMT"
+          "Value": "Mon, 15 Dec 2025 23:52:56 GMT"
         },
         {
           "Name": "Cache-Control",
