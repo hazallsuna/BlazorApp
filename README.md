@@ -50,5 +50,5 @@ Proje, modern .NET teknolojileri ve bileşen tabanlı UI yaklaşımı kullanıla
 
 1. Projeyi klonlayın:
    ```bash
-   git clone <(https://github.com/hazallsuna/BlazorApp)>
+   git clone https://github.com/hazallsuna/BlazorApp.git
 
