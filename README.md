@@ -30,7 +30,7 @@ Proje, modern .NET teknolojileri ve bileşen tabanlı UI yaklaşımı kullanıla
 - Dialog (popup) üzerinden ekleme, güncelleme ve silme işlemleri
 - Tarih alanları için `DatePicker` kullanımı
 - Arama (Search / Filter) özelliği
-- Dark / Light mode desteği
+- Dark mode desteği
 - Kullanıcı dostu ve modern arayüz
 
 ---
